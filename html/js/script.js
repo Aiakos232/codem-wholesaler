@@ -15,7 +15,7 @@ $(document).keydown(function(e) {
        
     if (e.keyCode == 27) {
         $('#personelmenu').hide();
-        $.post('http://codem-satici/escape');
+        $.post('http://codem-wholesaler/escape');
     }
 });
 
@@ -27,7 +27,7 @@ $(".anagovde").click(function(e){
             miktar = $("#baliksonuc").val();
             item =  $("#water").val();
             price = $("#price").val();
-        $.post("https://codem-satici/itemmiktar", JSON.stringify({
+        $.post("https://codem-wholesaler/itemmiktar", JSON.stringify({
             miktar: parseInt(miktar),
             item : item,
             price :parseInt(price),
@@ -38,7 +38,7 @@ $(".anagovde").click(function(e){
         miktar = $("#esrarsonuc").val();
         item =  $("#esrar").val();
         price =  $("#price").val();
-        $.post("https://codem-satici/itemmiktar", JSON.stringify({
+        $.post("https://codem-wholesaler/itemmiktar", JSON.stringify({
         miktar: parseInt(miktar),
         item : item,
         price :parseInt(price),
@@ -49,7 +49,7 @@ $(".anagovde").click(function(e){
         miktar = $("#odunsonuc").val();
         item =  $("#odun").val();
         price =  $("#price").val();
-        $.post("https://codem-satici/itemmiktar", JSON.stringify({
+        $.post("https://codem-wholesaler/itemmiktar", JSON.stringify({
         miktar: parseInt(miktar),
         item : item,
         price :parseInt(price),
@@ -61,7 +61,7 @@ $(".anagovde").click(function(e){
         miktar = $("#odunsonuc").val();
         item =  $("#odun").val();
         price =  $("#price").val();
-        $.post("https://codem-satici/itemmiktar", JSON.stringify({
+        $.post("https://codem-wholesaler/itemmiktar", JSON.stringify({
         miktar: parseInt(miktar),
         item : item,
         price : parseInt(price),
@@ -71,7 +71,7 @@ $(".anagovde").click(function(e){
         miktar = $("#stonesonuc").val();
         item =  $("#stone").val();
         price =  $("#price").val();
-        $.post("https://codem-satici/itemmiktar", JSON.stringify({
+        $.post("https://codem-wholesaler/itemmiktar", JSON.stringify({
         miktar: parseInt(miktar),
         item : item,
         price :parseInt(price),
@@ -81,7 +81,7 @@ $(".anagovde").click(function(e){
         miktar = $("#honeysonuc").val();
         item =  $("#honey").val();
         price =  $("#price").val();
-        $.post("https://codem-satici/itemmiktar", JSON.stringify({
+        $.post("https://codem-wholesaler/itemmiktar", JSON.stringify({
         miktar: parseInt(miktar),
         item : item,
         price :parseInt(price),
